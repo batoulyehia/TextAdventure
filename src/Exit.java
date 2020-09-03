@@ -23,4 +23,8 @@ public class Exit {
     public String getDirection() {
         return direction;
     }
+
+    public Room getLeadsTo() {
+        return leadsTo;
+    }
 }
